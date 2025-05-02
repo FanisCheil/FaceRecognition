@@ -1,0 +1,81 @@
+filename,actual_label,predicted_label,distance,match
+Fanis_1.jpg,Fanis,Fanis,0.05144986148135122,True
+Fanis_10.jpg,Fanis,Fanis,0.13312400221979925,True
+Fanis_11.jpg,Fanis,Fanis,0.11267261336443946,True
+Fanis_12.jpg,Fanis,Fanis,0.2685909407049385,True
+Fanis_13.jpg,Fanis,Fanis,0.07459462720240051,True
+Fanis_14.jpg,Fanis,Fanis,0.06873830869117004,True
+Fanis_15.jpg,Fanis,Fanis,0.08134856531227741,True
+Fanis_16.jpg,Fanis,Fanis,0.07824203211198344,True
+Fanis_17.jpg,Fanis,Fanis,0.07994108331309457,True
+Fanis_18.jpg,Fanis,Fanis,0.09306623891498056,True
+Fanis_19.jpg,Fanis,Fanis,0.09888873434841627,True
+Fanis_2.jpg,Fanis,Fanis,0.06298984371852878,True
+Fanis_20.jpg,Fanis,Fanis,0.07032083109302256,True
+Fanis_21.jpg,Fanis,Fanis,0.06788896335586414,True
+Fanis_3.jpg,Fanis,Fanis,0.05672800483617346,True
+Fanis_4.jpg,Fanis,Fanis,0.16005379997263303,True
+Fanis_5.jpg,Fanis,Fanis,0.16505787126255855,True
+Fanis_6.jpg,Fanis,Fanis,0.19292244850808837,True
+Fanis_7.jpg,Fanis,Fanis,0.09474012454154368,True
+Fanis_8.jpg,Fanis,Fanis,0.08617113491279893,True
+Fanis_9.jpg,Fanis,Fanis,0.0662626498329083,True
+Glykeria_1.jpg,Glykeria,Glykeria,0.14277904378329154,True
+Glykeria_10.jpg,Glykeria,Glykeria,0.11264985569465591,True
+Glykeria_11.jpg,Glykeria,Glykeria,0.10961534373508952,True
+Glykeria_12.jpg,Glykeria,Glykeria,0.10852847667290577,True
+Glykeria_13.jpg,Glykeria,Glykeria,0.15327003926461047,True
+Glykeria_14.jpg,Glykeria,Glykeria,0.17287266931807943,True
+Glykeria_15.jpg,Glykeria,Glykeria,0.16099684353197663,True
+Glykeria_16.jpg,Glykeria,Glykeria,0.1850448701373818,True
+Glykeria_17.jpg,Glykeria,Glykeria,0.1560227648607636,True
+Glykeria_18.jpg,Glykeria,Glykeria,0.20264111981854882,True
+Glykeria_19.jpg,Glykeria,Glykeria,0.16415962882552626,True
+Glykeria_2.jpg,Glykeria,Glykeria,0.13486939041353818,True
+Glykeria_20.jpg,Glykeria,Glykeria,0.13958875213284772,True
+Glykeria_21.jpg,Glykeria,Glykeria,0.15799406712094444,True
+Glykeria_3.jpg,Glykeria,Glykeria,0.13765344413653724,True
+Glykeria_4.jpg,Glykeria,Glykeria,0.20622746248992474,True
+Glykeria_5.jpg,Glykeria,Glykeria,0.1981058089128721,True
+Glykeria_6.jpg,Glykeria,Glykeria,0.19108224118106365,True
+Glykeria_7.jpg,Glykeria,Glykeria,0.13646437686658497,True
+Glykeria_8.jpg,Glykeria,Glykeria,0.11856231539070461,True
+Glykeria_9.jpg,Glykeria,Glykeria,0.1299568636152355,True
+Litsa_1.jpg,Litsa,Litsa,0.3061121372263178,True
+Litsa_10.jpg,Litsa,Litsa,0.39216280879633936,True
+Litsa_11.jpg,Litsa,Litsa,0.34805730970037263,True
+Litsa_12.jpg,Litsa,Litsa,0.37266686955671535,True
+Litsa_13.jpg,Litsa,Glykeria,0.3916540028349744,False
+Litsa_14.jpg,Litsa,Glykeria,0.4312741539791093,False
+Litsa_15.jpg,Litsa,Glykeria,0.39440071378847696,False
+Litsa_16.jpg,Litsa,Litsa,0.3945057075949555,True
+Litsa_17.jpg,Litsa,Litsa,0.35438764038968384,True
+Litsa_18.jpg,Litsa,Litsa,0.3309187107914139,True
+Litsa_19.jpg,Litsa,Litsa,0.3705179580196295,True
+Litsa_2.jpg,Litsa,Litsa,0.33515183260250814,True
+Litsa_20.jpg,Litsa,Litsa,0.35201765958179476,True
+Litsa_21.jpg,Litsa,Litsa,0.34989922416166797,True
+Litsa_3.jpg,Litsa,Litsa,0.32531808673265583,True
+Litsa_4.jpg,Litsa,Litsa,0.36648526734592946,True
+Litsa_5.jpg,Litsa,Litsa,0.3210113545712212,True
+Litsa_6.jpg,Litsa,Litsa,0.32164819906689923,True
+Litsa_7.jpg,Litsa,Litsa,0.35690279258421354,True
+Litsa_8.jpg,Litsa,Litsa,0.3858632111938082,True
+Litsa_9.jpg,Litsa,Litsa,0.34856671136542294,True
+Akshay Kumar_1.jpg,Unknown,Unknown,,True
+Alexandra Daddario_1.jpg,Unknown,Unknown,,True
+Alia Bhatt_12.jpg,Unknown,Unknown,,True
+Andy Samberg_67.jpg,Unknown,Unknown,,True
+Anushka Sharma_46.jpg,Unknown,Unknown,,True
+Anushka Sharma_56.jpg,Unknown,Unknown,,True
+Billie Eilish_53.jpg,Unknown,Unknown,,True
+Brad Pitt_24.jpg,Unknown,Unknown,,True
+Brad Pitt_97.jpg,Unknown,Unknown,,True
+Charlize Theron_18.jpg,Unknown,Unknown,,True
+Claire Holt_6.jpg,Unknown,Unknown,,True
+Claire Holt_67.jpg,Unknown,Unknown,,True
+Dwayne Johnson_27.jpg,Unknown,Unknown,,True
+Elizabeth Olsen_32.jpg,Unknown,Unknown,,True
+Ellen Degeneres_64.jpg,Unknown,Unknown,,True
+Henry Cavill_63.jpg,Unknown,Unknown,,True
+Hrithik Roshan_87.jpg,Unknown,Unknown,,True
