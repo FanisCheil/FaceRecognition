@@ -10,7 +10,7 @@ def speak(text):
     engine.runAndWait()
 
 # Configuration
-SAVE_DIR = "dataset/test_faces"
+SAVE_DIR = "dataset/known_faces"
 POSES = ["Forward", "Left", "Right", "Up", "Down","Forward and raise eyebrows", "and Smile"]
 CAPTURES_PER_POSE = 3
 
@@ -20,7 +20,7 @@ person_dir = os.path.join(SAVE_DIR, name)
 os.makedirs(person_dir, exist_ok=True)
 
 print("📸 Starting face capture session...")
-cap = cv2.VideoCapture(2)
+cap = cv2.VideoCapture(0)
 
 if not cap.isOpened():
     print("❌ Failed to open webcam.")
