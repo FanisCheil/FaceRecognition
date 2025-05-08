@@ -1,5 +1,6 @@
 import customtkinter as ctk
 import tkinter.messagebox
+import subprocess
 import os
 
 # Set appearance
@@ -9,7 +10,7 @@ ctk.set_default_color_theme("blue")
 # ------------------- MAIN MENU ----------------------
 def open_main_menu():
     menu = ctk.CTkToplevel()
-    menu.geometry("500x400")
+    menu.geometry("500x450")
     menu.title("Face Recognition System")
 
     # Close both windows if menu is closed
@@ -18,17 +19,29 @@ def open_main_menu():
     label = ctk.CTkLabel(menu, text="Choose an action", font=("Arial", 20))
     label.pack(pady=30)
 
+    def access_dataset():
+        subprocess.Popen(["python", "dataset_manager.py"])
+
+    def access_unknowns():
+        subprocess.Popen(["python", "see_unknowns.py"])
+
     def run_recognition():
-        os.system("python real_time_recognition.py")
+        subprocess.Popen(["python", "real_time_recognition.py"])
 
     def add_person():
-        os.system("python video_capture_prompt.py")
+        subprocess.Popen(["python", "video_capture_prompt.py"])
 
-    btn1 = ctk.CTkButton(menu, text="▶️ Start Live Recognition", command=run_recognition)
+
+    btn1 = ctk.CTkButton(menu, text="Start Live Recognition", command=run_recognition)
     btn1.pack(pady=15)
 
-    btn2 = ctk.CTkButton(menu, text="➕ Add New Person", command=add_person)
+    btn2 = ctk.CTkButton(menu, text="Add New Person", command=add_person)
     btn2.pack(pady=15)
+
+    btn3 = ctk.CTkButton(menu, text="Access Dataset", command=access_dataset)
+    btn3.pack(pady=15)
+    btn4 = ctk.CTkButton(menu, text="See Unknown Captures", command=access_unknowns)
+    btn4.pack(pady=15)
 
 
 # ------------------- LOGIN WINDOW -------------------
@@ -52,7 +65,7 @@ def login():
     if user == "admin" and password == "1234":
         tkinter.messagebox.showinfo("Login Successful", "Welcome!")
         open_main_menu()
-        app.withdraw()  # hide login window (no need to destroy it)
+        app.withdraw()
     else:
         tkinter.messagebox.showerror("Error", "Incorrect credentials.")
 
