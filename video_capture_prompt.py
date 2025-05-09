@@ -7,7 +7,7 @@ import pyttsx3
 import threading
 import argparse
 import shutil
-import tkinter.messagebox  # ✅ FIX: Import standard messagebox
+import tkinter.messagebox  
 
 # Configuration
 VIDEO_PATH = "face_prompt.mp4"
