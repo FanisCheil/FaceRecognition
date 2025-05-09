@@ -131,6 +131,8 @@ class FaceCaptureApp(ctk.CTk):
         speak("Capture session complete.")
         print("[Done] Capture finished.")
         self.start_btn.configure(state="normal")
+        time.sleep(2) #wait 2 seconds
+        self.destroy()
 
 # Entry point
 if __name__ == "__main__":
