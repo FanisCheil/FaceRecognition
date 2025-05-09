@@ -42,7 +42,7 @@ class FaceCaptureApp(ctk.CTk):
         self.label = ctk.CTkLabel(self, text="Enter name of person:", font=("Arial", 20))
         self.label.pack(pady=10)
 
-        self.entry = ctk.CTkEntry(self, width=300, placeholder_text="e.g. Fanis")
+        self.entry = ctk.CTkEntry(self, width=300, placeholder_text="e.g. YourName")
         self.entry.pack(pady=5)
         if self.name:
             self.entry.insert(0, self.name)
