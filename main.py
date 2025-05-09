@@ -7,10 +7,21 @@ import os
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
 
+
+def center_window(win, width, height):
+    win.update_idletasks()
+    screen_width = win.winfo_screenwidth()
+    screen_height = win.winfo_screenheight()
+    x = (screen_width // 2) - (width // 2)
+    y = (screen_height // 2) - (height // 2)
+    win.geometry(f"{width}x{height}+{x}+{y}")
+
+
 # ------------------- MAIN MENU ----------------------
 def open_main_menu():
     menu = ctk.CTkToplevel()
-    menu.geometry("500x450")
+    
+    center_window(menu, 500, 450)
     menu.title("Face Recognition System")
 
     # Close both windows if menu is closed
@@ -46,7 +57,7 @@ def open_main_menu():
 
 # ------------------- LOGIN WINDOW -------------------
 app = ctk.CTk()
-app.geometry("400x300")
+center_window(app, 400, 300)
 app.title("Face Recognition Login")
 
 title = ctk.CTkLabel(app, text="Login", font=("Arial", 24))
@@ -61,7 +72,7 @@ password_entry.pack(pady=10)
 def login():
     user = username_entry.get()
     password = password_entry.get()
-
+    
     if user == "admin" and password == "1234":
         tkinter.messagebox.showinfo("Login Successful", "Welcome!")
         open_main_menu()

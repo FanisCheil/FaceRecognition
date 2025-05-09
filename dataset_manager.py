@@ -48,6 +48,7 @@ class DatasetManager(ctk.CTk):
     def confirm_delete(self, person):
         confirm = ctk.CTkToplevel(self)
         confirm.title("Confirm Deletion")
+        confirm.attributes("-topmost", True)
         confirm.geometry("300x150")
         msg = ctk.CTkLabel(confirm, text=f"Are you sure you want to delete '{person}'?", font=("Arial", 14))
         msg.pack(pady=20)
