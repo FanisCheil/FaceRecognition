@@ -12,7 +12,7 @@ import tkinter.messagebox
 # Configuration
 VIDEO_PATH = "face_prompt.mp4"
 SAVE_DIR = "dataset/known_faces"
-CAPTURE_INTERVAL = 0.4  # seconds
+CAPTURE_INTERVAL = 0.7  # seconds
 
 # Voice engine
 engine = pyttsx3.init()
