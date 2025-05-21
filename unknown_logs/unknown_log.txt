@@ -1,21 +1,3 @@
 2025-05-09_14-32-43 - Unknown detected - saved to unknown_logs\unknown_2025-05-09_14-32-43.jpg
 2025-05-09_14-32-54 - Unknown detected - saved to unknown_logs\unknown_2025-05-09_14-32-54.jpg
-2025-05-14_19-09-08 - Unknown detected - saved to unknown_logs\unknown_2025-05-14_19-09-08.jpg
-2025-05-14_19-09-14 - Unknown detected - saved to unknown_logs\unknown_2025-05-14_19-09-14.jpg
-2025-05-14_19-13-30 - Unknown detected - saved to unknown_logs\unknown_2025-05-14_19-13-30.jpg
-2025-05-15_04-24-35 - Unknown detected - saved to unknown_logs\unknown_2025-05-15_04-24-35.jpg
-2025-05-15_04-24-39 - Unknown detected - saved to unknown_logs\unknown_2025-05-15_04-24-39.jpg
-2025-05-15_04-24-43 - Unknown detected - saved to unknown_logs\unknown_2025-05-15_04-24-43.jpg
-2025-05-15_04-24-50 - Unknown detected - saved to unknown_logs\unknown_2025-05-15_04-24-50.jpg
-2025-05-15_04-24-54 - Unknown detected - saved to unknown_logs\unknown_2025-05-15_04-24-54.jpg
-2025-05-15_04-25-01 - Unknown detected - saved to unknown_logs\unknown_2025-05-15_04-25-01.jpg
-2025-05-15_04-25-04 - Unknown detected - saved to unknown_logs\unknown_2025-05-15_04-25-04.jpg
-2025-05-15_04-25-12 - Unknown detected - saved to unknown_logs\unknown_2025-05-15_04-25-12.jpg
-2025-05-21_20-34-11 - Unknown detected - saved to unknown_logs\unknown_2025-05-21_20-34-11.jpg
-2025-05-21_20-34-17 - Unknown detected - saved to unknown_logs\unknown_2025-05-21_20-34-17.jpg
-2025-05-21_20-34-34 - Unknown detected - saved to unknown_logs\unknown_2025-05-21_20-34-34.jpg
-2025-05-21_20-35-14 - Unknown detected - saved to unknown_logs\unknown_2025-05-21_20-35-14.jpg
-2025-05-21_20-35-27 - Unknown detected - saved to unknown_logs\unknown_2025-05-21_20-35-27.jpg
-2025-05-21_20-35-31 - Unknown detected - saved to unknown_logs\unknown_2025-05-21_20-35-31.jpg
-2025-05-21_20-36-00 - Unknown detected - saved to unknown_logs\unknown_2025-05-21_20-36-00.jpg
-2025-05-21_20-46-39 - Unknown detected - saved to unknown_logs\unknown_2025-05-21_20-46-39.jpg
+
